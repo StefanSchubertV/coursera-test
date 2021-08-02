@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+    font-family: "Times New Roman", Times, serif;
+}
+
+div {
+    float: left;
+    position: relative;
+}
+
+.bereich {
+    background-color: cornsilk;
+    padding-top: 35px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-right: 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+
+.topic {
+    background-color: darkcyan;
+    top: -1px;
+    right: -1px;
+    position: absolute;
+    padding: 3px;
+    text-align: center;
+    width: 100px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    font-size: 125%;
+}
+
+h1 {
+    font-size: 175%;
+}
+
+#sushi {
+    background-color: chocolate;
+    color: cornsilk;
+}
+
+#beef {
+    background-color: cyan;
+    color: black;
+}
+
+#chicken {
+    background-color: chartreuse;
+    color: black;
+}
+
+/********** Desktop **********/
+
+@media (min-width: 992px) {
+    .spalten {
+        width: 33%;
+    }
+}
+
+/********** Tablet **********/
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .spalten {
+        width: 50%;
+    }
+}
